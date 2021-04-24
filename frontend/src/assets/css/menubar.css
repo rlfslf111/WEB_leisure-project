@@ -1,0 +1,49 @@
+.side-menu{
+    width: 7rem;
+    height: auto;
+    z-index: 5;
+    position: fixed;
+    bottom: 5%;
+    right:1.5%
+}
+
+.side-main-button{
+    color: lightblue;
+    background: none;
+    position: fixed;
+    top: 8%;
+    right: 2%;
+    border: none;
+    width: 52px;
+    height:45px;
+    font-size: 1.2rem;
+}
+
+.side-main-button:focus{
+    outline: none;
+}
+
+.upBtn {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    color: lightcoral;
+}
+
+.side-menu-bar{
+    text-align: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.side-menu-bar li{
+    height: 2rem;
+    width: auto;
+    /* margin: 0; */
+    margin-bottom: 0.5rem;
+    color: black;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

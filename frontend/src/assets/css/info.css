@@ -1,0 +1,79 @@
+.info-img{
+    background: url('../img/main-boat.jpg') no-repeat;
+    /* opacity: 0.8; */
+    /* clip: rect( 0px, 120px, 10px, 120px ); */
+    width: 100%;
+    height: 6.3rem;
+    background-position: right top;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.15);
+}
+.info-bg{
+    background-color: rgba(0, 0, 0, 0.5);
+    /*살짝 투명한 검정으로 배경색*/
+    width: 100%;
+    height: 6.3rem;
+    position: absolute;
+}
+.infofont{
+    font-family: 'Jua', sans-serif;
+    color:black !important;
+    /* font-family: 'CookieRunOTF-Bold' !important; */
+}
+.infoimg{
+    height:15rem; 
+    width:15rem; 
+}
+
+.inputimg button{
+    width: 100%;
+    font-weight: bold;
+}
+
+.nickname-edit{
+    color: RGB(134, 165, 212);
+    font-weight: bold;
+}
+
+.form-group-info input{
+    border: none !important;
+    padding: 0;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    /* text-align: right; */
+}
+/* 
+.form-group input :focus{
+    outline: 1px dashed crimson !important;
+} */
+
+.form-control{
+    background-color: white !important;
+}
+
+.form-group-pw{
+    font-weight: bold;
+}
+
+.form-group-pw label{
+    font-size: 1rem;
+}
+
+.btn-link{
+    color:black !important;
+    font-weight: bold !important;
+    font-size: 1rem !important;
+    margin-left: auto;
+}
+
+.error-text{
+    font-size: 0.8rem;
+}
+
+.mypage-select{
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}

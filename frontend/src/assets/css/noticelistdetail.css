@@ -1,0 +1,34 @@
+.notice-img{
+    background: url('../img/kayak.jpg') no-repeat;
+    /* opacity: 0.8; */
+    width: 100%;
+    height: 25rem;
+    background-size: 100% 25rem;
+    background-position: center;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.15);
+}
+
+.notice-title-main{
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: bold;
+    max-width: 70%;
+}
+
+.notice-title-sub{
+    font-size: 1rem;
+    max-width: 100%;
+    margin-top: auto;
+}
+
+.notice-content-main{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.notice-content-sub{
+    text-align: left;
+    font-size: 1.2rem;
+    min-height: 30rem;
+
+}

@@ -1,0 +1,182 @@
+.post-img{
+    background: url('../img/firecloud.jpg') no-repeat;
+    /* opacity: 0.8; */
+    width: 100%;
+    height: 25rem;
+    background-size: 100% 25rem;
+    background-position: center;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.15);
+}
+.postment{
+    color:white;
+    font-size: 3.2rem;
+    position: relative;
+    padding-top: 250px;
+    font-family: 'Jua', sans-serif;
+}
+.postmentp{
+    font-size:1.8rem;
+    color:white;
+    position: relative;
+    font-family: 'Jua', sans-serif;
+}
+.post {
+    /* font-weight: bold; */
+    text-decoration: none !important;
+}
+
+.form-control{
+    border: 1px solid gray !important;
+}
+
+.card{
+    border: none !important;
+}
+
+/* .card-img-overlay{
+    visibility: visible;
+} */
+
+/* .card-img-overlay:hover p{
+    cursor: pointer;
+    visibility: visible;
+} */
+
+/* .location-button{
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+} */
+
+.box{
+    overflow:hidden;
+    border-radius: 5px;
+}
+.postlist-img{
+    border-radius: 5px;
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    transform: scale(1.0);
+    transition: all .3s ease-in-out;
+}
+
+.postlist-img:hover{
+    border-radius: 5px;
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.card-title-post{
+    font-weight: bold;
+}
+
+/* 필터 버튼 */
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    font-size: 1rem;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.btn-spring{
+    background-image: url(https://fpost.co.kr/board/data/editor/2003/d4bf3e4345bf3dee5d7a04d5a62302e4_1583479481_1401.jpg);
+    font-weight: bold !important;
+    padding-left: 10px !important;
+    padding-top: 10px !important;
+}
+
+.btn-spring:hover{
+    transform: rotate(15deg);
+}
+
+.btn-summer{
+    background-image: url(https://t1.daumcdn.net/cfile/tistory/2543984557A18BF133);
+    font-weight: bold !important;
+    padding-left: 3px !important;
+    padding-top: 10px !important;
+
+}
+
+.btn-summer:hover{
+    transform: rotate(15deg);
+}
+
+.btn-fall{
+    background-image: url(https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002718/img/basic/a0002718_main.jpg?20200707153932&q=80&rw=750&rh=536);
+    font-weight: bold !important;
+    padding-top: 10px !important;
+
+}
+
+.btn-fall:hover{
+    transform: rotate(15deg);
+}
+
+.btn-winter{
+    background-image: url(https://dimg.donga.com/wps/NEWS/IMAGE/2019/12/01/98576905.2.jpg);
+    padding-left: 10px !important;
+    font-weight: bold !important;
+    padding-top: 10px !important;
+
+}
+
+.btn-winter:hover{
+    transform: rotate(15deg);
+}
+
+.btn-ground{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQPz9xoBP6vegsSE_1ycAiuwhe4kDWvkVI55w&usqp=CAU);
+    font-weight: bold !important;
+    padding-left: 7px !important;
+    padding-top: 10px !important;
+
+}
+
+.btn-ground:hover{
+    transform: rotate(15deg);
+}
+
+.btn-water{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_Gy5HbcA7w4lV4vfaFCLO6pzZlh7JHKBCmw&usqp=CAU);
+    font-weight: bold !important;
+    padding-top: 10px !important;
+
+}
+
+.btn-water:hover{
+    transform: rotate(15deg);
+}
+
+.btn-sky{
+    background-image: url(https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F1909213E4FD817CD1F);
+    font-weight: bold !important;
+    padding-top: 10px !important;
+
+}
+
+.btn-sky:hover{
+    transform: rotate(15deg);
+}
+
+.selectlist{
+    background-color:white !important; 
+    color: gray !important;
+    font-weight: bold;
+}

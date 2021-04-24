@@ -1,0 +1,59 @@
+.notice-img{
+    background: url('../img/kayak.jpg') no-repeat;
+    /* opacity: 0.8; */
+    width: 100%;
+    height: 25rem;
+    background-size: 100% 25rem;
+    background-position: center;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.15);
+}
+
+.notice {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.notice-main .btn-regist {
+  color: crimson;
+  font-size: 0.9rem;
+}
+
+tbody :hover{
+    background-color: rgb(247, 247, 247);
+}
+
+.table {
+  margin-bottom: 3rem;
+  table-layout: fixed;
+}
+
+.table-num {
+  width: 10%;
+}
+
+.table-title {
+  width: 52%;
+}
+
+.table-date {
+  width: 20%;
+}
+
+.table-visit {
+  width: 18%;
+}
+
+.notice-title {
+  text-align: left;
+  cursor: pointer;
+  text-overflow:ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}

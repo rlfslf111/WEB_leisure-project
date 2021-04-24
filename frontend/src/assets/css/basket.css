@@ -1,0 +1,63 @@
+.basket-img{
+  background: url('../img/gilpick.jpg') no-repeat;
+  width: 100%;
+  height: 25rem;
+  background-size: 100% 25rem;
+  background-position: center;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.15);
+}
+.basket-img-bg{
+    background-color: rgba(0, 0, 0, 0.3);
+    /*살짝 투명한 검정으로 배경색*/
+    width: 100%;
+    height: 25rem;
+    position: absolute;
+}
+.shopping-list {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.input-group {
+  border-bottom: 0.5px solid rgb(218, 218, 218) !important;
+}
+
+.input-group-text {
+  background-color: white !important;
+  border: none !important;
+  padding-right: 2rem !important;
+}
+
+.input-group img {
+  height: 8rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.15);
+}
+
+.basket-list {
+  height: 8rem;
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+.basket-list p {
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.checked-price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: left;
+  color: crimson;
+}
+
+.btn-delete {
+  color: crimson !important;
+  font-size: 0.9rem !important;
+}

@@ -1,0 +1,32 @@
+.modal-content {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.modal-body {
+    padding-bottom: 6px !important;
+}
+
+.modal-body img {
+    width: 100%;
+    height: 8rem;
+    cursor: pointer;
+}
+
+.basket-list {
+    cursor: pointer;
+}
+
+.basket-list p {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.packaging-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: right;
+    color: crimson;
+}
